@@ -1,0 +1,375 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: local('Museo Sans Cyrl 500'), 
+    	local('MuseoSansCyrl-500'), 
+    	url('../fonts/Museosanscyrl500.woff2') format('woff2'), 
+    	url('../fonts/Museosanscyrl500.woff') format('woff'), 
+    	url('../fonts/Museosanscyrl500.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.body {
+	font-family: "Museo Sans Cyrl", sans-serif;
+	font-size: 16px;
+	color: #1D1D39;
+}
+
+.container {
+	width: 1160px;
+	height: 100%
+}
+
+.header {
+	height: 90px;
+}
+
+.header-content {
+	height: 100%;
+}
+
+.menu_item__link {
+	text-decoration: none;
+	color: #1D1D39;
+}
+
+.menu_item__link:hover {
+	text-decoration: none;
+	color: #039BE6;
+}
+
+.btn-enter {
+	width: 100px;
+	min-width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #039BE6;
+}
+
+.btn-enter:hover {
+	color: #fff;
+	background-color: #38C4FF;
+}
+
+.box-01 {
+	height: 360px;
+	background-color: #F2F3F8;
+}
+
+.slogan {
+	width: 760px;
+	height: 100px;
+	font-size: 36px;
+	line-height: 48px;
+}
+
+.consultation {
+  	position: relative;
+	bottom: -95px;
+	padding: 45px 40px;
+	width: 690px;
+	height: 175px;
+	filter: drop-shadow(0 8px 24px rgba(29, 29, 57, 0.2));
+	border-radius: 5px 5px 0 5px;
+	background-color: #fff;
+}
+
+.triangle {
+    display: inline-block;
+    position: absolute;
+    right: -45px;
+    bottom: 0;
+    width: 45px;
+    height: 40px;
+}
+
+.triangle:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 90% 0, rgba(0, 0, 0, 0) 70%, #fff 70%);
+}
+
+.consultation_desc {
+	margin-right: 25px;
+	line-height: 28px;
+	color: #333;
+}
+
+.btn-brief {
+	display: block;
+	min-width: 190px;
+	width: 190px;
+	height: 60px;
+	border-radius: 30px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #03973D;
+}
+
+.btn-brief:hover {
+	color: #fff;
+	background-color: #27BC62;
+}
+
+.consultation_link {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #039BE6;
+}
+
+.context-ad {
+	padding-top: 275px
+}
+
+.ad-title {
+	margin-bottom: 80px;
+	font-size: 36px;
+	line-height: 48px;
+}
+
+.approach_icon {
+	margin-bottom: 30px;
+
+}
+
+.approach__title {
+	font-size: 16px;
+}
+
+.approach__desc {
+	font-size: 14px;
+	line-height: 26px;
+	color: #333333;
+}
+
+.analytics {
+    padding: 180px 0;
+}
+
+.analytics__title {
+	margin-bottom: 60px;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.analytics__desc {
+	display: inline-block;
+	margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.btn-analytics {
+	margin: 0 30px 0 0;
+}
+
+.start {
+	padding: 120px 0;
+	background-color: #F2F3F8;
+}
+
+.arrow-01 {
+	position: absolute;
+	top: -50px;
+    right: -70px;
+}
+
+.arrow-02 {
+	position: absolute;
+	top: 50%;
+    right: -90px;
+    transform: translateY(-50%);
+}
+
+.start__title {
+    margin-bottom: 40px;
+    padding-right: 40px;
+}
+
+.start__desc {
+	margin-top: 0;
+	width: 285px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.start__balance {
+	margin-top: 0;
+	width: 260px;
+	font-size: 16px;
+    line-height: 28px;
+}
+
+.footer {
+	background-color: #222A35;
+}
+
+.footer-menu {
+	height: 140px;
+}
+
+.footer-menu__link {
+	text-decoration: none;
+	color: #039BE6;
+}
+
+.footer-menu__link:hover {
+	text-decoration: none;
+	color: #039BE6;
+}
+
+.contacts_phone__number {
+	text-decoration: none;
+	color: #F4F4F4;
+}
+
+.contacts_phone__number:hover {
+	text-decoration: none;
+	color: #F4F4F4;
+}
+
+.personal-data,
+.email__link,
+.requisites__link {
+	text-decoration: none;
+	color: #00B3FF;
+}
+
+.personal-data:hover,
+.email__link:hover,
+.requisites__link:hover {
+	text-decoration: none;
+	color: #00B3FF;
+}
+
+.city {
+    font-size: 14px;
+    color: #828282;
+}
+
+.footer__horizontal-rules {
+	background: rgba(196, 196, 196, 0.1);
+}
+
+.footer_contacts {
+	height: 75px;
+}
+
+.footer-copyright {
+    padding-bottom: 20px;
+}
+
+.copyright {
+	font-size: 13px;
+	color: #484B50;
+}
+
+/*Tablet*/
+@media ( max-width: 900px ) {
+
+	.body {
+		font-size: 14px;
+	}
+
+	.menu_item {
+	    margin-right: 20px;
+	}
+
+	.slogan {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.box-01 {
+		height: 240px;
+	}
+	.consultation {
+		bottom: -95px;
+		padding: 25px 40px;
+		width: 570px;
+		height: 150px;
+	}
+
+	.context-ad {
+		padding-top: 195px;
+	}
+
+	.ad-title {
+		margin-bottom: 60px;
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.approach {
+		padding: 20px;
+		border-radius: 5px;
+		box-shadow: 0 8px 24px rgba(29, 29, 57, 0.2);
+	}
+	.approach:nth-child(n+2) {
+		margin-top: 60px;
+	}
+
+
+	.approach_icon {
+		margin-right: 30px;
+	}
+
+	.approach__title {
+		margin-top: 0;
+	}
+
+	.analytics {
+	    padding: 120px 0;
+	}
+
+	.analytics__title {
+		margin-top: 40px;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.btn-analytics {
+		margin: auto;
+	}
+
+	.start__title {
+		width: 100%;
+    	padding: 0;
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+
+	.start__desc,
+	.start__balance {
+		margin-top: 40px;
+		width: auto;
+	}
+
+	.footer {
+    	padding-top: 20px;
+    }
+
+    .footer-logo {
+    	display: none;
+    }
+	.footer_contacts {
+		height: auto;
+	}
+	
+	.social {
+	    width: 50%;
+	    margin: auto;
+	}
+}
